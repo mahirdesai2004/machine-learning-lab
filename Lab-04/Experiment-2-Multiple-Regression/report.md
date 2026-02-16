@@ -21,10 +21,19 @@ To perform Multiple Linear Regression on the Vehicle CO2 Emission dataset to pre
 6. **Prediction:** Generated predictions on test data.
 7. **Evaluation:** Calculated MSE, R2 score, and variance score.
 
-## Results
-- **Coefficients:** (Values from code)
-- **Model Accuracy (R2):** Indicates the percentage of variance in CO2 emissions explained by the model.
-- **Variance Score:** Close to 1.0 indicates good prediction accuracy.
+### 4. Results
+- **Model Coefficients**: The coefficients for Engine Size, Cylinders, and Fuel Consumption indicate their relative impact on CO2 emissions.
+- **Model Accuracy**:
+    - **Mean Squared Error (MSE)**: Calculated to evaluate the average squared difference between estimated values and the actual value.
+    - **R-squared ($R^2$)**: A statistical measure that represents the proportion of the variance for a dependent variable that's explained by an independent variable or variables in a regression model.
+- **Visualizations**:
+    - **Correlation Heatmap**: Displayed strong positive correlations between Engine Size, Cylinders, Fuel Consumption, and CO2 Emissions, indicating these are strong predictors.
+    - **Outlier Detection**: Box plots revealed potential outliers in Fuel Consumption and CO2 Emissions, which may affect model performance.
+    - **Scatter Plots**: Confirmed linear relationships between CO2 and the selected features, satisfying the linearity assumption of OLS regression.
 
 ## Conclusion
-The multiple regression model provides a robust prediction for CO2 emissions. Engine size and fuel consumption were found to be significant predictors. The model demonstrates high accuracy as reflected by the R2 score.
+The Multiple Linear Regression model successfully predicted CO2 emissions based on vehicle features. The high $R^2$ score and low MSE indicate a good fit. The additional visualizations provided deeper insights:
+1.  **Correlation**: Strong positive correlation among features suggests multicollinearity might be present, but they are all strong predictors of CO2.
+2.  **Outliers**: Presence of outliers suggests robust regression techniques or data cleaning might further improve the model.
+3.  **Linearity**: Scatter plots confirmed the linear relationship assumption.
+Overall, the model is effective for estimating CO2 emissions from vehicle characteristics. The model demonstrates high accuracy as reflected by the R2 score.
