@@ -1,3 +1,4 @@
 .lab-report-screenshots/
 __pycache__/
 .ipynb_checkpoints/
+.DS_Store
