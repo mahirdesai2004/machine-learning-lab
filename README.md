@@ -1,105 +1,79 @@
-# Machine Learning Lab - 04 🚀
+<div align="center">
+  <h1>🧠 Machine Learning Lab Implementations</h1>
+  <p><i>A structured repository containing Machine Learning algorithms implemented using Python, Pandas, and Scikit-Learn.</i></p>
 
-Welcome to the **Machine Learning Lab-04** repository! This project demonstrates the implementation of fundamental Regression and Classification algorithms using Python and Scikit-learn.
-
-## 📂 Repository Structure
-
-The repository is organized into three main experiments:
-
-```
-📦 Machine-Learning-Lab
- ┣ 📂 Experiment-1-Linear-Regression
- ┃ ┣ 📜 notebook.ipynb       # Simple Linear Regression implementation
- ┃ ┣ 📜 report.md            # Detailed report of Exp 1
- ┃ ┗ 📜 sales_tv_marketing.csv
- ┣ 📂 Experiment-2-Multiple-Regression
- ┃ ┣ 📜 notebook.ipynb       # Multiple Linear Regression with Visualizations
- ┃ ┣ 📜 report.md            # Detailed report of Exp 2
- ┃ ┗ 📜 car_co2_emission.csv
- ┗ 📂 Experiment-3-Logistic-Regression
-   ┣ 📜 notebook.ipynb       # Logistic Regression (Refined)
-   ┣ 📜 report.md            # Detailed report of Exp 3
-   ┗ 📜 ad_click_prediction.csv
-```
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
+    <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" />
+    <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+    <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" />
+  </p>
+</div>
 
 ---
 
-## 🔬 Experiments Overview
+## 📌 Repository Overview
 
-### 1️⃣ Experiment 1: Simple Linear Regression
-**Objective:** Predict Sales based on TV Marketing budget.
-- **Model:** Simple Linear Regression ($y = mx + c$)
-- **Dataset:** `sales_tv_marketing.csv`
-- **Key Metrics:** $R^2$ Score, Mean Squared Error (MSE)
-
-### 2️⃣ Experiment 2: Multiple Linear Regression
-**Objective:** Predict CO2 Emissions of vehicles based on features like Engine Size, Cylinders, and Fuel Consumption.
-- **Model:** Multiple Linear Regression
-- **Dataset:** `car_co2_emission.csv`
-- **Highlights:**
-  - 📊 Correlation Heatmap
-  - 📦 Outlier Detection (Box Plots)
-  - 📉 Scatter Plots for Feature Relations
-
-### 3️⃣ Experiment 3: Logistic Regression
-**Objective:** Predict whether a user will click on an online advertisement.
-- **Model:** Logistic Regression (Binary Classification)
-- **Dataset:** `ad_click_prediction.csv`
-- **Key Features:**
-  - 🧹 **EDA:** Missing value treatment, Data Normalization.
-  - 🕒 **Feature Engineering:** Extracted 'Hour' from Timestamp to analyze time-of-day impact.
-  - 📈 **Evaluation:**
-    - Confusion Matrix
-    - ROC Curve & AUC
-    - Precision-Recall Curve
-    - K-Fold Cross Validation
+This repository serves as a centralized collection my comprehensive Machine Learning experiments. Every experiment focuses on a core ML concept ranging from simple regressions to complex classification tree models, fully documented with exploratory data analysis (EDA), model training, evaluation, and visualizations.
 
 ---
 
-# ML Lab 05 – Supervised Learning
+## 📂 Directories
 
-## Experiments
-1. Naïve Bayes Classification
-2. Decision Tree Classification
-3. Model Comparison
-
-## Dataset
-Breast Cancer Wisconsin Diagnostic dataset
-
-## Evaluation Metrics
-- Accuracy
-- Confusion Matrix
-- Classification Report
-- Precision Recall Curve
-- ROC Curve
-
-## Results
-Naïve Bayes achieved a higher overall testing accuracy and demonstrated better recall for malignant cancer cases compared to the Decision Tree, indicating it generalized better and minimized false negatives effectively.
+| Lab | Experiments | Core Technologies |
+|---|---|---|
+| **[Lab-04](./Lab-04/)** | Simple Linear, Multiple Linear, & Logistic Regression | `scikit-learn`, Binary Classification, Evaluation Metrics |
+| **[Lab-05](./Lab-05/)** | Naïve Bayes & Decision Tree Classification | Multi-class datasets, Precision-Recall, ROC Curves, Cost-Complexity |
 
 ---
 
-## 🛠️ Technologies Used
-- **Python** 🐍
-- **Pandas** & **NumPy** (Data Manipulation)
-- **Matplotlib** & **Seaborn** (Visualization)
-- **Scikit-learn** (Machine Learning Models)
-- **Jupyter Notebook** (Interactive Coding)
+## 🔬 Experiment Details
+
+### 🟢 Lab-04: Regression Models
+Three robust implementations exploring continuous and binary target prediction:
+1. **Simple Linear Regression** 📈
+   - Forecasting Sales based on TV Marketing budget.
+2. **Multiple Linear Regression** 🚗
+   - Predicting CO2 emissions using multivariate feature analysis (Engine Size, Cylinders).
+   - In-depth collinearity checks with Heatmaps and Box Plot outlier detection.
+3. **Logistic Regression** 🖱️
+   - Binary classification to predict online advertisement click-through rates.
+   - Comprehensive EDA, feature engineering, and K-Fold cross-validation.
+
+### 🔵 Lab-05: Supervised Learning (Classification)
+Comparing probabilistic and rule-based prediction models on the **Breast Cancer Wisconsin (Diagnostic)** dataset:
+1. **Naïve Bayes Classifier** 📐
+   - Building a Gaussian NB model to evaluate high-bias probabilistic calculations.
+2. **Decision Tree Classifier** 🌳
+   - Gini-impurity based decision rules visualization (`plot_tree`).
+3. **Comparative Analysis** ⚖️
+   - Direct comparison of generalization utilizing precision, recall, confusion matrix heatmaps, and consolidated ROC curves.
 
 ---
 
-## 🚀 How to Run
-1. Clone the repository:
+## 🚀 Getting Started
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/mahirdesai2004/machine-learning-lab.git
+   cd machine-learning-lab
    ```
-2. Navigate to the experiment folder:
+
+2. **Navigate to an experiment and launch Jupyter:**
    ```bash
-   cd machine-learning-lab/Lab-04/Experiment-1-Linear-Regression
-   ```
-3. Open the notebook:
-   ```bash
+   cd Lab-05
    jupyter notebook notebook.ipynb
    ```
 
+3. **Install dependencies:**
+   Ensure you have the required Python packages:
+   ```bash
+   pip install numpy pandas matplotlib seaborn scikit-learn
+   ```
+
 ---
-*Created by [Mahir Desai](https://github.com/mahirdesai2004)*
+
+<div align="center">
+  <i>Maintained by <a href="https://github.com/mahirdesai2004">Mahir Desai</a></i>
+</div>
