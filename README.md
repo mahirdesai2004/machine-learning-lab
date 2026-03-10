@@ -25,6 +25,7 @@ This repository serves as a centralized collection my comprehensive Machine Lear
 |---|---|---|
 | **[Lab-04](./Lab-04/)** | Simple Linear, Multiple Linear, & Logistic Regression | `scikit-learn`, Binary Classification, Evaluation Metrics |
 | **[Lab-05](./Lab-05/)** | Naïve Bayes & Decision Tree Classification | Multi-class datasets, Precision-Recall, ROC Curves, Cost-Complexity |
+| **[Lab-06](./Lab-06/)** | K-Nearest Neighbour (KNN) & SVM Classification | Non-parametric modeling, High dimensional margins, Model generalization |
 
 ---
 
@@ -49,6 +50,15 @@ Comparing probabilistic and rule-based prediction models on the **Breast Cancer 
    - Gini-impurity based decision rules visualization (`plot_tree`).
 3. **Comparative Analysis** ⚖️
    - Direct comparison of generalization utilizing precision, recall, confusion matrix heatmaps, and consolidated ROC curves.
+
+### 🟣 Lab-06: Non-Parametric & High Dimensional Supervised Learning
+Evaluating distance-based vs margin-based models on the **Breast Cancer Wisconsin (Diagnostic)** dataset:
+1. **K-Nearest Neighbour (KNN)** 🗺️
+   - Evaluating localized distance-based classification to predict malignancy.
+2. **Support Vector Machine (SVM)** ⚔️
+   - Constructing optimal hyperplanes (linear kernel) for robust global margins.
+3. **Comparative Analysis** ⚖️
+   - Analyzing tradeoff sensitivity and overfitting susceptibility using ROC/AUC and localized heatmaps.
 
 ---
 
