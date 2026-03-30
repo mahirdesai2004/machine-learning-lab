@@ -76,14 +76,14 @@ Combining multiple classifiers on the **Breast Cancer Wisconsin (Diagnostic)** d
 ### 🟣 Lab-08: Unsupervised Learning (Clustering)
 Implementing clustering algorithms on the **Iris** dataset:
 1. **K-Means Clustering** 🧼
-   - Grouping data into 'k' clusters based on centroid proximity.
-   - Evaluated using average Silhouette Scores.
+   - Grouping data into 'k' clusters with train-test (80:20) splits.
+   - Evaluated using average Silhouette Scores and mapped Accuracy.
 2. **Hierarchical Clustering** 🌲
    - Building a tree of clusters using Agglomerative strategies.
    - Visualizing data relationships with Dendrograms.
 3. **Comparative Analysis** ⚖️
-   - Evaluating cluster cohesion and separation using Silhouette analysis.
-   - Analyzing side-by-side distribution plots for cluster consistency.
+   - Bar chart comparison of Accuracy and Silhouette scores.
+   - Analyzing side-by-side Confusion Matrices for cluster alignment.
 
 ---
 
