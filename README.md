@@ -27,6 +27,7 @@ This repository serves as a centralized collection my comprehensive Machine Lear
 | **[Lab-05](./Lab-05/)** | Naïve Bayes & Decision Tree Classification | Multi-class datasets, Precision-Recall, ROC Curves, Cost-Complexity |
 | **[Lab-06](./Lab-06/)** | K-Nearest Neighbour (KNN) & SVM Classification | Non-parametric modeling, High dimensional margins, Model generalization |
 | **[Lab-07](./Lab-07/)** | Ensemble Learning (Bagging, Boosting, Stacking) | Variance reduction, Sequential error correction, Model aggregation |
+| **[Lab-08](./Lab-08/)** | Clustering (K-Means & Hierarchical) | Unsupervised learning, Centroid-based partitioning, Dendrogram traversal |
 
 ---
 
@@ -71,6 +72,18 @@ Combining multiple classifiers on the **Breast Cancer Wisconsin (Diagnostic)** d
    - Combining DT, KNN, and Logistic Regression with a meta-learner.
 4. **Comparative Analysis** ⚖️
    - Four-way comparison of accuracy, ROC/AUC, and confusion matrices.
+
+### 🟣 Lab-08: Unsupervised Learning (Clustering)
+Implementing clustering algorithms on the **Iris** dataset:
+1. **K-Means Clustering** 🧼
+   - Grouping data into 'k' clusters based on centroid proximity.
+   - Evaluated using average Silhouette Scores.
+2. **Hierarchical Clustering** 🌲
+   - Building a tree of clusters using Agglomerative strategies.
+   - Visualizing data relationships with Dendrograms.
+3. **Comparative Analysis** ⚖️
+   - Evaluating cluster cohesion and separation using Silhouette analysis.
+   - Analyzing side-by-side distribution plots for cluster consistency.
 
 ---
 
