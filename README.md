@@ -28,6 +28,8 @@ This repository serves as a centralized collection my comprehensive Machine Lear
 | **[Lab-06](./Lab-06/)** | K-Nearest Neighbour (KNN) & SVM Classification | Non-parametric modeling, High dimensional margins, Model generalization |
 | **[Lab-07](./Lab-07/)** | Ensemble Learning (Bagging, Boosting, Stacking) | Variance reduction, Sequential error correction, Model aggregation |
 | **[Lab-08](./Lab-08/)** | Clustering (K-Means & Hierarchical) | Unsupervised learning, Centroid-based partitioning, Dendrogram traversal |
+| **[Lab-09](./Lab-09/)** | Artificial Neural Networks (ANN) | Deep Learning foundations, Multi-layer Perceptrons, Backward propagation |
+| **[Lab-10](./Lab-10/)** | Convolutional Neural Networks (CNN) | spatial feature extraction, 1D Convolutions, Pooling strategies |
 
 ---
 
@@ -84,6 +86,24 @@ Implementing clustering algorithms on the **Iris** dataset:
 3. **Comparative Analysis** ⚖️
    - Bar chart comparison of Accuracy and Silhouette scores.
    - Analyzing side-by-side Confusion Matrices for cluster alignment.
+
+### 🟠 Lab-09: Artificial Neural Networks (ANN)
+Implementing foundational Deep Learning models on the **Iris** dataset:
+1. **Multi-Layer Perceptron (MLP)** 🧠
+   - Constructing an ANN with multiple hidden layers using `MLPClassifier`.
+   - Iterative weight optimization via backpropagation.
+2. **Performance Evaluation** ⚖️
+   - Analysis of Accuracy, Precision, and Recall on scaled feature sets.
+   - Visualization of the Training Loss curve to monitor convergence.
+
+### 🔴 Lab-10: Convolutional Neural Networks (CNN)
+Designing spatial feature extraction models for sequence/tabular data:
+1. **1D Convolutional Neural Network** 💠
+   - Building a 1D CNN using `TensorFlow/Keras` to identify Iris patterns.
+   - Implementing Conv1D, MaxPooling, and Dense layers.
+2. **Evaluation and Training History** ⚖️
+   - Monitoring training loops with Accuracy and Loss plots over epochs.
+   - final model validation using high-precision evaluation metrics.
 
 ---
 
