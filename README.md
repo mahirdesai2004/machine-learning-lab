@@ -30,6 +30,7 @@ This repository serves as a centralized collection my comprehensive Machine Lear
 | **[Lab-08](./Lab-08/)** | Clustering (K-Means & Hierarchical) | Unsupervised learning, Centroid-based partitioning, Dendrogram traversal |
 | **[Lab-09](./Lab-09/)** | Artificial Neural Networks (ANN) | Deep Learning foundations, Multi-layer Perceptrons, Backward propagation |
 | **[Lab-10](./Lab-10/)** | Convolutional Neural Networks (CNN) | spatial feature extraction, 1D Convolutions, Pooling strategies |
+| **[Lab-11](./Lab-11/)** | Natural Language Processing (NLP) | Text Preprocessing, Tokenization, Stemming, Bag of Words, TF-IDF |
 
 ---
 
@@ -104,6 +105,15 @@ Designing spatial feature extraction models for sequence/tabular data:
 2. **Evaluation and Training History** ⚖️
    - Monitoring training loops with Accuracy and Loss plots over epochs.
    - final model validation using high-precision evaluation metrics.
+
+### 🟡 Lab-11: Natural Language Processing (NLP)
+Implementing fundamental Natural Language Processing techniques:
+1. **Text Preprocessing & Normalization** 📝
+   - Cleaning and tokenizing raw text streams using `nltk`.
+   - Applying Stemming (PorterStemmer) and Lemmatization (WordNetLemmatizer) to extract term derivations.
+2. **Text Representation & Vectorization** 🧮
+   - Generating standard token frequency matrices with Bag of Words (`CountVectorizer`).
+   - Extracting domain-relevant feature weights with `TfidfVectorizer`.
 
 ---
 
