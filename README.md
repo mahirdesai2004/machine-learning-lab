@@ -23,6 +23,9 @@ This repository serves as a centralized collection my comprehensive Machine Lear
 
 | Lab | Experiments | Core Technologies |
 |---|---|---|
+| **[Lab-01](./Lab-01/)** | Intro to Python for Data Analysis | `numpy`, Pandas DataFrames, array shape manipulation |
+| **[Lab-02](./Lab-02/)** | Data Preprocessing and Visualization | Missing values, Datacasting, `matplotlib`, Outlier Detection |
+| **[Lab-03](./Lab-03/)** | Descriptive Statistical Analysis | Central tendency, IQR, Covariance/Correlation matrices |
 | **[Lab-04](./Lab-04/)** | Simple Linear, Multiple Linear, & Logistic Regression | `scikit-learn`, Binary Classification, Evaluation Metrics |
 | **[Lab-05](./Lab-05/)** | Naïve Bayes & Decision Tree Classification | Multi-class datasets, Precision-Recall, ROC Curves, Cost-Complexity |
 | **[Lab-06](./Lab-06/)** | K-Nearest Neighbour (KNN) & SVM Classification | Non-parametric modeling, High dimensional margins, Model generalization |
@@ -36,6 +39,30 @@ This repository serves as a centralized collection my comprehensive Machine Lear
 ---
 
 ## 🔬 Experiment Details
+
+### 🟢 Lab-01: Introduction to Python for Data Analysis
+Establishing the foundation for tabular logic and mathematical operations:
+1. **NumPy Arrays and Matrices** 🔢
+   - Initializing standard arrays, reshaping constraints, and utilizing `np.zeros()` and `np.ones()`.
+2. **Pandas Basics** 🐼
+   - Converting local dictionaries to structured DataFrames.
+   - Using `read_csv()` to import datasets, validating with `info()` and `describe()`.
+
+### 🟡 Lab-02: Data Preprocessing and Visualization
+Cleaning datasets and displaying fundamental analytic graphs:
+1. **Data Cleaning Workflows** 🧹
+   - Mapping, dropping, and filling missing values (`dropna`, `fillna`).
+   - Rectifying outlier occurrences via `replace()` and forcing columns to memory-efficient types `astype()`.
+2. **Visual Exploratory Analysis** 📊
+   - Identifying trends with `Matplotlib` Box plots, Histograms, Line trends, and Scatter distributions.
+
+### 🔴 Lab-03: Descriptive Statistical Analysis
+Measuring dataset balance and spread mathematically using `StudentsPerformance.csv`:
+1. **Central Tendencies and Dispersion** 📈
+   - Quantifying exact `mean`, `median`, `mode`, `variance`, and `std`.
+2. **Probability & Relationships** ⚖️
+   - Tracing exact numeric bounds using quartiles and IQRs.
+   - Measuring dependencies using Correlation limits (`-1 to 1`) and Covariance matrices.
 
 ### 🟢 Lab-04: Regression Models
 Three robust implementations exploring continuous and binary target prediction:
