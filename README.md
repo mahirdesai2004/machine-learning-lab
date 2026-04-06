@@ -31,6 +31,7 @@ This repository serves as a centralized collection my comprehensive Machine Lear
 | **[Lab-09](./Lab-09/)** | Artificial Neural Networks (ANN) | Deep Learning foundations, Multi-layer Perceptrons, Backward propagation |
 | **[Lab-10](./Lab-10/)** | Convolutional Neural Networks (CNN) | spatial feature extraction, 1D Convolutions, Pooling strategies |
 | **[Lab-11](./Lab-11/)** | Natural Language Processing (NLP) | Text Preprocessing, Tokenization, Stemming, Bag of Words, TF-IDF |
+| **[Lab-12](./Lab-12/)** | Fraud Detection under Concept Drift (Project) | End-to-end classification pipeline, Imbalanced data, Threshold optimization, SHAP Explainability |
 
 ---
 
@@ -114,6 +115,15 @@ Implementing fundamental Natural Language Processing techniques:
 2. **Text Representation & Vectorization** 🧮
    - Generating standard token frequency matrices with Bag of Words (`CountVectorizer`).
    - Extracting domain-relevant feature weights with `TfidfVectorizer`.
+
+### 🟤 Lab-12: Fraud Detection under Concept Drift (Project)
+End-to-end production pipeline addressing highly imbalanced data (~1.5% fraud rate):
+1. **Model Optimization** ⚙️
+   - Training extreme gradient boosting (`XGBoost`) models with temporal cross-validation.
+   - Cost-sensitive classification using optimized threshold sweeping.
+2. **Evaluation and Explainability** ⚖️
+   - Maximizing PR-AUC (Precision-Recall Area) over traditional ROC-AUC.
+   - Utilizing SHAP summaries to explain specific feature contributions.
 
 ---
 
